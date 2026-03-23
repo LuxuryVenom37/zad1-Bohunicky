@@ -68,6 +68,8 @@ h.EdgeColor   = '#22AA22';
 
 
 % robot v hraničnej polohe
+plot([0, P_all(1,1)], [0, P_all(1,3)], '-', 'Color', '#4682B5', 'LineWidth', 2);
+plot(0, 0, 'o', 'Color', '#4682B5', 'MarkerFaceColor', 'k');
 plot(P_all(:,1), P_all(:,3), '-', 'Color', '#4682B5', 'LineWidth', 2);
 plot(P_all(:,1), P_all(:,3), 'o', 'Color', '#4682B5', 'MarkerFaceColor', 'k');
 
