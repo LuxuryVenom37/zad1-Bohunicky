@@ -5,7 +5,6 @@ Zadanie č. 1 – Vizualizácia priamej kinematickej úlohy
 Vypracoval: Viktor Bohunický
 AIS ID: 133896
 
-======================================================
 SPUSTENIE
 ======================================================
 
@@ -17,7 +16,6 @@ Skript nakreslí robota so súradnicovými systémami a potom spočíta
 pracovný priestor – raz v rovine XY (pohľad zhora), raz v rovine XZ
 (pohľad zboku).
 
-======================================================
 ŠTRUKTÚRA PROJEKTU
 ======================================================
 
@@ -39,7 +37,6 @@ README.txt              tento súbor
     xy_prac_priestor.fig
     xz_prac_priestor.fig
 
-======================================================
 ČO ROBÍ KAŽDÝ SÚBOR
 ======================================================
 
@@ -65,7 +62,6 @@ xz_prac_priestor.m
     cez 3D mriežku (ndgrid).
     Obrys počíta pomocou alphaShape; ak zlyhá, padne späť na convhull.
 
-======================================================
 FUNKCIE V /functions
 ======================================================
 
@@ -86,7 +82,6 @@ rotate_matrix.m
 translate_matrix.m
     Vráti 4×4 homogénnu translačnú maticu pozdĺž osi x, y alebo z.
 
-======================================================
 PARAMETRE MANIPULÁTORA
 ======================================================
 
@@ -106,7 +101,6 @@ Rozsahy uhlov (stupne):
 
 Osi rotácie: { z, y, y, z, y }
 
-======================================================
 VÝSTUPY
 ======================================================
 
