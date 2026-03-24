@@ -109,7 +109,9 @@ VÝSTUPY
 
 Po spustení manipulator.m priečinok /data obsahuje:
 
-    manipulator_model.mat       parametre a model robota
-    manipulator.fig             3D vizualizácia s osami
+    manipulator_model.mat       parametre manipulátora
+    manipulator.fig             3D vizualizácia manipulátora
+    manipulator_all_axis.fig	3D vizualizácia manipulátora so všetkými osami
+    manipulator_axis.fig	3D vizualizácia manipulátora s osou základne a koncového bodu
     xy_prac_priestor.fig        pracovný priestor, rovina XY
     xz_prac_priestor.fig        pracovný priestor, rovina XZ
